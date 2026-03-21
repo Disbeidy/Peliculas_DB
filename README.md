@@ -6,7 +6,8 @@ Incluye:
 
 ---
 
-🧩 Estructura del repositorio
+🧩 Estructura del repositorio:
+
 Peliculas_DB/
 │
 ├── backend/     # API REST
