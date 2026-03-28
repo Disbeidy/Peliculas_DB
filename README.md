@@ -70,7 +70,7 @@ CRUD completo para:
 Disbeidy Anzueta Gongora
 Daniela Anzueta Gongora
 Estudiantes de Tecnología en Desarrollo de Software
-Institución Universitaria Digital de Antioqui
+Institución Universitaria Digital de Antioquia
 
 ---
 
