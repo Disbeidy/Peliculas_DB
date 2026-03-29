@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<MediaPage />} />
         <Route path="/generos" element={<GeneroPage />} />
         <Route path="/directores" element={<DirectorPage />} />
         <Route path="/productoras" element={<ProductoraPage />} />
