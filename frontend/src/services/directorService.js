@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4000/api/directores";
+const API_URL = "https://peliculas-db-flgg.onrender.com/api/directores";  
 
 export const getDirectores = () => axios.get(API_URL);
 export const createDirector = (data) => axios.post(API_URL, data);

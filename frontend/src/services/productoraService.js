@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4000/api/productoras";
+const API_URL = "https://peliculas-db-flgg.onrender.com/api/productoras";
 
 export const getProductoras = () => axios.get(API_URL);
 export const createProductora = (data) => axios.post(API_URL, data);

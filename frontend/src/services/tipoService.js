@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4000/api/tipos";
+const API_URL = "https://peliculas-db-flgg.onrender.com/api/tipos";
 
 export const getTipos = () => axios.get(API_URL);
 export const createTipo = (data) => axios.post(API_URL, data);

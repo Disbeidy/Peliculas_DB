@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4000/api/media";
+const API_URL = "https://peliculas-db-flgg.onrender.com/api/media";
 
 export const getMedia = () => axios.get(API_URL);
 export const createMedia = (data) => axios.post(API_URL, data);
