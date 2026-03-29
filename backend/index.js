@@ -16,6 +16,10 @@ app.use('/api/productoras', require('./routes/productora'));
 app.use('/api/tipos', require('./routes/tipo'));
 app.use('/api/media', require('./routes/media'));
 
+app.get("/", (req, res) => {
+  res.send("🎬 API de Películas funcionando correctamente en Render 🚀");
+});
+
 getConnection();
 
 app.listen(port, () => {
